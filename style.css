@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+header {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.buscador {
+    text-align: center;
+    padding: 15px;
+}
+
+.buscador input {
+    padding: 8px;
+    width: 200px;
+}
+
+.buscador button {
+    padding: 8px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    width: 100%;
+}
+
+.paginacion {
+    text-align: center;
+    margin: 20px;
+}
+
+.paginacion button {
+    padding: 8px;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(7, 158, 158);
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
